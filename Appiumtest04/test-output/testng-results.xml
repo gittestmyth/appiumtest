@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36057" started-at="2017-09-06T14:36:52Z" finished-at="2017-09-06T14:37:28Z">
+    <groups>
+    </groups>
+    <test name="first" duration-ms="36057" started-at="2017-09-06T14:36:52Z" finished-at="2017-09-06T14:37:28Z">
+      <class name="cases.Test1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:cases.Test1@73f792cf]" name="beforeClass" is-config="true" duration-ms="12771" started-at="2017-09-06T22:36:52Z" finished-at="2017-09-06T22:37:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:cases.Test1@73f792cf]" name="setUp" is-config="true" duration-ms="192" started-at="2017-09-06T22:37:05Z" finished-at="2017-09-06T22:37:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:cases.Test1@73f792cf]" name="test1" duration-ms="18880" started-at="2017-09-06T22:37:05Z" finished-at="2017-09-06T22:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:cases.Test1@73f792cf]" name="afterClass" is-config="true" duration-ms="4180" started-at="2017-09-06T22:37:24Z" finished-at="2017-09-06T22:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- cases.Test1 -->
+    </test> <!-- first -->
+  </suite> <!-- Suite -->
+</testng-results>

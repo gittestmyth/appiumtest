@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" junit="false" guice-stage="DEVELOPMENT" configfailurepolicy="skip" thread-count="5"
+       skipfailedinvocationcounts="false" data-provider-thread-count="10" group-by-instances="false"
+       preserve-order="true" allow-return-values="false">
+
+    <test name="first">
+        <classes>
+            <class name="cases.Test1" />
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="utils.ScreenShotListener" />
+    </listeners>
+</suite>
